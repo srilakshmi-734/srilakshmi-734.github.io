@@ -43,7 +43,7 @@ export function Experience() {
             </div>
             <div>
               <h3 className="text-3xl font-bold dark:text-white tracking-tight uppercase">Product Developer Intern</h3>
-              <p className="text-accent font-bold mt-2 tracking-widest uppercase text-sm">CampusAI Hub</p>
+              <p className="text-accent font-bold mt-2 tracking-widest uppercase text-sm">GenLab</p>
             </div>
           </div>
 
@@ -59,7 +59,7 @@ export function Experience() {
           </div>
 
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-xl italic font-medium">
-            "Worked on CampusAI Hub with full-stack AI system development and deployment, focusing on intent-driven architecture and production-ready ML services."
+            Worked on CampusAI Hub with full-stack AI system development and deployment, focusing on intent-driven architecture and production-ready ML services.
           </p>
 
           <div className="mt-12 flex items-center text-accent text-sm font-bold tracking-widest uppercase">
