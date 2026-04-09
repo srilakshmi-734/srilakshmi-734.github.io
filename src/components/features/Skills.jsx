@@ -21,7 +21,7 @@ const skillCategories = [
   },
   {
     category: 'Databases',
-    skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'Pinecone']
+    skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis']
   },
   {
     category: 'Cloud',
