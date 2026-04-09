@@ -48,29 +48,29 @@ export function Skills() {
           </p>
         </div>
         <div className="hidden md:flex space-x-12 pb-2">
-          <div className="text-center">
+          {/* <div className="text-center">
             <div className="text-4xl font-black text-accent">20+</div>
             <div className="text-xs text-gray-500 uppercase tracking-[0.2em] mt-2 font-bold">Tools</div>
           </div>
           <div className="text-center">
             <div className="text-4xl font-black text-accent">6+</div>
             <div className="text-xs text-gray-500 uppercase tracking-[0.2em] mt-2 font-bold">Domains</div>
-          </div>
+          </div> */}
         </div>
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {skillCategories.map((category, index) => (
-          <SkillCard 
-            key={category.category} 
-            category={category.category} 
-            skills={category.skills} 
-            index={index} 
+          <SkillCard
+            key={category.category}
+            category={category.category}
+            skills={category.skills}
+            index={index}
           />
         ))}
       </div>
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -86,7 +86,7 @@ export function Skills() {
         </div>
         <div className="flex flex-wrap justify-center md:justify-end gap-3 max-w-lg">
           {['Explainable AI', 'LLM Agents', 'Decision Intelligence', 'MLOps'].map((item) => (
-            <span 
+            <span
               key={item}
               className="px-6 py-3 bg-accent/10 border border-accent/20 text-accent rounded-2xl text-sm font-bold tracking-wide hover:bg-accent/20 transition-all cursor-default"
             >
