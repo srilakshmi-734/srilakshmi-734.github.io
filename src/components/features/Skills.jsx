@@ -24,6 +24,10 @@ const skillCategories = [
     skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis']
   },
   {
+    category: 'Visualization',
+    skills: ['Power BI', 'Matplotlib', 'Seaborn', 'Excel']
+  },
+  {
     category: 'Cloud',
     skills: ['AWS', 'Docker', 'Nginx', 'Vercel', 'Git']
   }
