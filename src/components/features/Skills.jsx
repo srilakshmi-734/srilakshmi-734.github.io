@@ -9,11 +9,11 @@ const skillCategories = [
   },
   {
     category: 'Programming',
-    skills: ['Python', 'SQL', 'R', 'JavaScript', 'Bash']
+    skills: ['Python', 'SQL', 'R', 'JavaScript']
   },
   {
     category: 'Data Tools',
-    skills: ['Pandas', 'NumPy', 'Power BI', 'Tableau', 'Matplotlib']
+    skills: ['Pandas', 'NumPy', 'Power BI', 'Tableau', 'Matplotlib', 'Seaborn']
   },
   {
     category: 'Backend',
@@ -23,10 +23,10 @@ const skillCategories = [
     category: 'Databases',
     skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis']
   },
-  {
-    category: 'Visualization',
-    skills: ['Power BI', 'Matplotlib', 'Seaborn', 'Excel']
-  },
+  // {
+  //   category: 'Visualization',
+  //   skills: ['Power BI', 'Matplotlib', 'Seaborn', 'Excel']
+  // },
   {
     category: 'Cloud',
     skills: ['AWS', 'Docker', 'Nginx', 'Vercel', 'Git']
